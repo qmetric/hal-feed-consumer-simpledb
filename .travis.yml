@@ -1,3 +1,12 @@
 language: java
-jdk: 
-  - openjdk7
+sudo: false
+jdk:
+  - oraclejdk8
+env:
+  global:
+    - secure: "hA1qzELtO00vW23cawY87XxEjTSeG8T6OAl+M+aAPAANixpp8D1SKI5fK1z5otiMUxS60A7CaVXmHK4s5DslOgpa4ttXnXzfCZoMpzfIOhN+v8G48TQXpm6j6BrCQ8x8jIknKh8VHPazI21fkdNTLm7ew2/flRF+QAysgrkVxZU="
+    - secure: "w4fWrQBR+m/zCW/U7hXUmOacwU2Y3PRm1c9UGl6fYkVo3zpY1l3wFtpDc6uIzKqRXAJJWaF1JJ5GOjA+CdV93alMQkthbZp14bWwu/mYskhdNKDtOapIeybsddUoOL/Jf1yqAoDpeB2431OpDR5hOn5isotsU++RpmtTtCo4VFQ="
+branches:
+  except:
+    - /_.*$/
+after_failure: ./print_surefire_reports.sh

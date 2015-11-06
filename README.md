@@ -1,5 +1,7 @@
-HAL+JSON feed consumer
+HAL+JSON feed consumer (SimpleDB)
 ======================
+
+[![Build Status](https://travis-ci.org/qmetric/hal-feed-consumer-simpledb.png)](https://travis-ci.org/qmetric/hal-feed-consumer-simpledb)
 
 Mysql feed tracker extension library for use with [hal-feed-consumer](https://github.com/qmetric/hal-feed-consumer).
 
