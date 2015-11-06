@@ -41,6 +41,13 @@
             <organization>qmetric</organization>
             <organizationUrl>https://github.com/organizations/qmetric</organizationUrl>
         </developer>
+        <developer>
+            <id>qmg-mszymczak</id>
+            <name>Michael Szymczak</name>
+            <email>mszymczak@qmetric.co.uk</email>
+            <organization>qmetric</organization>
+            <organizationUrl>https://github.com/organizations/qmetric</organizationUrl>
+        </developer>
     </developers>
 
     <dependencies>
