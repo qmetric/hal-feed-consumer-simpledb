@@ -3,7 +3,7 @@
 
     <groupId>com.qmetric</groupId>
     <artifactId>hal-feed-consumer-simpledb</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
     <name>SimpleDB feed tracker implementation for Hal+JSON feed consumer library</name>
     <description>SimpleDB feed tracker implementation for consuming HAL+JSON feeds (https://github.com/qmetric/hal-feed-server)</description>
