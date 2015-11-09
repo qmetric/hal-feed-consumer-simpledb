@@ -3,7 +3,7 @@ HAL+JSON feed consumer (SimpleDB)
 
 [![Build Status](https://travis-ci.org/qmetric/hal-feed-consumer-simpledb.png)](https://travis-ci.org/qmetric/hal-feed-consumer-simpledb)
 
-Mysql feed tracker extension library for use with [hal-feed-consumer](https://github.com/qmetric/hal-feed-consumer).
+SimpleDB feed tracker extension library for use with [hal-feed-consumer](https://github.com/qmetric/hal-feed-consumer).
 
 
 Usage
@@ -38,7 +38,7 @@ Usage
 -----
 
 First, configure a data store used by the consumer to track which feed entries have already been consumed.
-An [Amazon SimpleDB](http://aws.amazon.com/simpledb/) based implementation is supplied as part of this library (see below for alternative implementations including for Mysql):
+An [Amazon SimpleDB](http://aws.amazon.com/simpledb/) based implementation is supplied as part of this library:
 
 ```java
 final AmazonSimpleDB simpleDBClient = new AmazonSimpleDBClient(new BasicAWSCredentials("access key", "secret key"));
