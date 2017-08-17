@@ -15,7 +15,7 @@ Usage
 <dependency>
     <groupId>com.qmetric</groupId>
     <artifactId>hal-feed-consumer</artifactId>
-    <version>${VERSION >= 3.16}</version>
+    <version>${3.16 >= VERSION < 5.0}</version>
 </dependency>
 
 <dependency>
